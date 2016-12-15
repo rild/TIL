@@ -190,20 +190,47 @@ AppWidgetProviderInfoオブジェクトとなる。ここには以下の２つ�
 `"@layout/widget_layout"`のような値になると思われます。
 
 ## configure
+ユーザがウィジェットを追加した時, 起動する Activity を定義します。
+
+ウィジェット追加時に Activity を起動することで, ユーザがウィジェットの初期設定を行うことができます。
+
+より詳細な情報は [Creating an App Widget Configuration Activity](https://developer.android.com/guide/topics/appwidgets/index.html#Configuring) を参照されたし。
 
 ## previewImage
 ウィジェットが配置された際のプレビューを提供するための属性。ユーザがウィジェットを選択するリストに並ぶことになる。もし、`previewImage` が設定されていなかった場合、代わりにアプリのアイコンが表示される。
 
 AppWidgetProviderInfo の `previewImage` は、 `AndroidManifest.xml` の `<receiver>` にある ` android:previewImage` と一致する。
 
-より詳細な情報は [Setting a Preview Image](https://developer.android.com/guide/topics/appwidgets/index.html#preview) を参照されたし
+より詳細な情報は [Setting a Preview Image](https://developer.android.com/guide/topics/appwidgets/index.html#preview) を参照されたし。
 
 Android3.0 から実装。
 
 ## resizeMode
+ウィジェットがリサイズされる時のルールを定義します。開発者はウィジェットがホームスクリーン上で縦横にリサイズできる様にするために、 `resizeMode` を利用することができます。
+
+ユーザはウィジェットをリサイズするために、長押しを行います。リサイズハンドラが出現したら、縦横の変更する向きにハンドラをドラッグしてウィジェットのリサイズを行います。このリサイズは、ホームスクリーンのグリッドに合わせて行われます。
+
+`resizeMode` に対して設定可能な値は、
+- "horizontal"
+- "vertical"
+- "none"
+の３種類です。
+
+縦横どちらにもリサイズ可能にするためには、
+- "horizontal|vertical"
+を設定します。
+
+Android3.1より実装。
+
+## minResizeHeight / minResizeWidth
+> `minWidth / minHeight` に移動。
 
 ## widgetCategory
+`widgetCategory` にはウィジェットがホームスクリーン`home_screen`や、ロック画面`keyguard`に表示可能かどうかを設定することができます。
 
+ロック画面でのウィジェット設置は、Android5.0以下で実装可能であり、それ以上のバージョンでは、ウィジェットはホームスクリーンにのみ設置可能となっている様です。
+
+次は、ウィジェットのレイアウトリソースの作成の記事です。
 
 以上で、ウィジェットに使用するリソースの部分は終わりです。
 次はいよいよ、ソースコード (AppWidgetProvider継承クラス) の部分について触れていきます。
