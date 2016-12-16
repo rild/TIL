@@ -80,6 +80,15 @@ Develop > API Guides > App Components
 
 ---
 第２回
+Androidのウィジェットの開発に関する記事です。公式ドキュメント[App Widgets](https://developer.android.com/guide/topics/appwidgets/index.html)の訳を中心に記事を書いていきます。
+
+間違いを見つけた場合、コメントで指摘していただけると幸いです。
+
+第２回では、ウィジェットを作る際に必要な
+1. Manifestでの宣言
+2. ウィジェットのメタデータ(AppWidgetProviderInfo)
+について書いていきます。
+
 # Manifestでウィジェットを宣言する
 ウィジェットを提供する [AppWidgetProvider](https://developer.android.com/reference/android/appwidget/AppWidgetProvider.html) 継承クラスを AndroidManifest.xml で宣言する必要があります。
 
@@ -231,6 +240,3 @@ Android3.1より実装。
 ロック画面でのウィジェット設置は、Android5.0以下で実装可能であり、それ以上のバージョンでは、ウィジェットはホームスクリーンにのみ設置可能となっている様です。
 
 次は、ウィジェットのレイアウトリソースの作成の記事です。
-
-以上で、ウィジェットに使用するリソースの部分は終わりです。
-次はいよいよ、ソースコード (AppWidgetProvider継承クラス) の部分について触れていきます。
