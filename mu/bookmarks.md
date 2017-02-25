@@ -1,0 +1,3 @@
+ - https://deepmind.com/blog/wavenet-generative-model-raw-audio/
+ 	- WaveNet
+	- the sample is amazing. I wonder that could apply to Japanese, too.
