@@ -5,7 +5,9 @@
 本を読んでいく上でのメモd
 by rild
 
-# ABSTRUCT
+267ページある...
+
+# ABSTRACT
 深層学習, deeep learning は, ここ数年(2015)
 - 機械学習
 - 人工知能
