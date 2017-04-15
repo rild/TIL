@@ -58,3 +58,17 @@ by rild
   - 深層学習による音声認識
 - 第７章
   - 深層学習による自然言語処理
+
+diag(d) : d is vector
+
+https://jp.mathworks.com/help/matlab/ref/diag.html?requestedDomain=www.mathworks.com
+
+[誤差逆伝播法のノート](http://qiita.com/Ugo-Nama/items/04814a13c9ea84978a4c)
+
+```
+→ 勾配消失について調べたかった
+```
+
+
+# 第１章 改装型ニューラルネットワークによる深層学習
+4/14
