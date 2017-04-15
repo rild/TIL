@@ -14,3 +14,5 @@ titled
 `VOCAINE THE VOCODER AND APPLICATIONS IN SPEECH SYNTHESIS`
 
 # Main
+
+at least, should I read abstract and conclusion 
