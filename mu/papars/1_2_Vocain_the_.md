@@ -116,7 +116,7 @@ but alters voicing quality, reduces *brightness ??* and does not produce realist
  - it is sensitive to voicing decisions
  - frequently suffering from artifacts in unvoiced-voiced transients and onsets
 
- ## Vocaine
+## Vocaine
  - Vocaine was designed to overcome
   - shortcomings of STRAIGHT and
   - HNM with low computational complexity
@@ -126,12 +126,16 @@ a *universal vocoder synthesizer*
 - a speech waveform renderer
  - can be used to different analysis mothods
 
+## Overview 
 - section 2 presents a novel speech model
  - describes the speech signal in a sinal equation as a sum of non-stationary sinusoids and
- - incorporates a coherent noise-modulation model for frication and breathiness 
+ - incorporates a coherent noise-modulation model for frication and breathiness
 - section 3 presents a phaselocked pitch-synchronous synthesis mechanism
  - allows explicit phases to be set at glottal closure instants
  - successfully deals with transients
 - section 4 presents a novel phase interpolation techniques
  - referred to as quadratic phase splines
  - very fast and automatically introduces dithering noise at non-stationary parts pf speech
+- section 5 presents a novel super-fast cosine generation procedure
+ - significantly lowers computational complexity
+- section 6 presents objective and subjective results in Copy-Synthesis and SPSS
