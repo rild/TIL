@@ -52,3 +52,11 @@ this paper focuses on two problems in DNN-based speech synthesis
 - inconsistency between the training and synthesis criteria
 - over-smoothing of the generated parameter trajectories
   - muffled ?
+
+training and synthesis
+should be used the SAME objective functions??
+
+otherwise, inconsistency
+
+a new criterion on a higher order moment
+called the global variance, GV
