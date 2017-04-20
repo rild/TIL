@@ -2,6 +2,7 @@
 ## 2017-04-20
 ### WaveNet
 
+- acoustic intensity
 - plus code modulation
 
 ## 2017-04-19
