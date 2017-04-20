@@ -1,7 +1,11 @@
 
+## 2017-04-20
+### WaveNet
+
+- plus code modulation
+
 ## 2017-04-19
 ### ch03 122-124
-
 - evidently
 - progressively
 - compound
