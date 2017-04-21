@@ -1,7 +1,17 @@
 
 ## 2017-04-20
-### WaveNet
+### 2-1
 
+- synergy
+- drawbacks
+- local minima convergence
+- convergence
+- restraining, restrain
+- decimation
+- Time series forecasting
+
+## 2017-04-20
+### WaveNet
 - acoustic intensity
 - plus code modulation
 
