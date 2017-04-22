@@ -1,7 +1,11 @@
 
-## 2017-04-20
-### 2-1
+## 2017-04-22
 
+## 2017-04-21
+### 2-2
+- intermediate
+- ingredient
+### 2-1
 - synergy
 - drawbacks
 - local minima convergence
