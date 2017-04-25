@@ -1,3 +1,15 @@
+## 2017-04-25
+### 2-3
+
+- auxiliary
+- remedy
+- stray
+- acute
+- arbitrary, 2
+- stochasticity
+- cursive
+- discrete
+
 ## 2017-04-24
 
 ## 2017-04-23
