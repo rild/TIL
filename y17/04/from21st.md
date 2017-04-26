@@ -1,4 +1,18 @@
 # April
+## 26th
+GitHub の方でアカウント認証されなくて困った.
+研究室の方の GitLab 用に global の config を書き換えちゃったためであるとはすぐにわかったものの,
+
+直すのに, ちょっと時間かかった.
+
+```shel
+git config --local user.name
+git config --local user.email
+```
+
+`user.mail` という勘違いが原因だった.
+
+thx [qiita](http://qiita.com/zaki-yama/items/bfb0c2bef516af58c3fa)
 
 ## 21st
 そもそも Text-to-Speech をやるにはどう使えばいいのやら
