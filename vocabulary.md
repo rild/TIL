@@ -1,11 +1,23 @@
-## 2017-04-25
-### 2-3
+## 2017-04-26
 
+## 2017-04-25
+### 2-4
+
+- conventional ..
+- concatenation glitches
+- cascade
+- co-occurrence
+- correlation
+- instant
+- trajectory ..
+- intrinsic
+
+### 2-3
 - auxiliary
 - remedy
 - stray
 - acute
-- arbitrary, 2
+- arbitrary ..
 - stochasticity
 - cursive
 - discrete
