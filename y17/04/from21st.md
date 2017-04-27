@@ -1,4 +1,19 @@
 # April
+## 27th 
+Python3系で描画できない問題
+
+`~/.bash_profile`
+に忘れ物. 
+
+```
+eval "$(pyenv init -)"
+```
+
+`pip`
+は python のバージョンごとに管理してるのね
+pyenv global 3.5.1 で pip list したら何も出てこなくて焦った. 
+知らなかったよ. 
+
 ## 26th
 GitHub の方でアカウント認証されなくて困った.
 研究室の方の GitLab 用に global の config を書き換えちゃったためであるとはすぐにわかったものの,
