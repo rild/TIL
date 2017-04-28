@@ -1,4 +1,16 @@
 ## 2017-04-28
+### 3-2
+- Acknowledgements
+- multinomial distribution
+- The networks also `incorporate` residual connections (He et al., 2015) around LSTM layers
+- to *excel* at hard sequence problems
+- autoregressive models
+- a product of conditional distributions
+- Image completions
+- Architectural novelties
+- residual connections
+- tractable
+- a landmark problem
 
 ## 2017-04-27
 
