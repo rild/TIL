@@ -1,5 +1,7 @@
 Pixcel Recurrent Neural Networks
 
+[pdf link @Cornell Uni Lib](https://arxiv.org/abs/1601.06759)
+
 ## Conclusion
 improvement
 -  improve and build upon `deep recurrent neural networks`
@@ -25,7 +27,7 @@ masked convolutions
 > significantly improve the state of the art on the MNIST and CIFAR-10 datasets
 > provide new benchmarks for generative image modeling on the ImageNet dataset
 
-practically unlimited data available to train on 
+practically unlimited data available to train on
 
 
 ## Abstract

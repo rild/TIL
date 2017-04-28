@@ -1,4 +1,15 @@
+## 2017-04-29
+
 ## 2017-04-28
+### 3-3
+- However, WaveNet inference poses a `daunting` computational problem
+- each of which may rely on hand-engineered features and `heuristics`
+- accessibility for the visually-`impaired`
+- each component requires `laborious` feature engineering
+- `Inference` performance
+- viable
+> `viable` for all the components of a high- quality text-to-speech engine
+
 ### 3-2
 - Acknowledgements
 - multinomial distribution
