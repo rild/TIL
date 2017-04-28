@@ -14,6 +14,15 @@ eval "$(pyenv init -)"
 pyenv global 3.5.1 で pip list したら何も出てこなくて焦った. 
 知らなかったよ. 
 
+```
+/Users/rild/.pyenv/versions/3.5.1/lib/python3.5/site-packages/matplotlib/font_manager.py:280: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.  'Matplotlib is building the font cache using fc-list. '
+```
+実行してもなかなか描画されなくて困った. 
+そういうこともあるのね. 
+
+brew install cmake libvorbis sdl2 sdl2_image sdl2_mixer sdl2_ttf
+入れてみたけど, 後で消そう. 
+
 ## 26th
 GitHub の方でアカウント認証されなくて困った.
 研究室の方の GitLab 用に global の config を書き換えちゃったためであるとはすぐにわかったものの,
