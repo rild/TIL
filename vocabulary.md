@@ -1,4 +1,21 @@
+## 2017-05-01
+
 ## 2017-04-30
+### 3-4
+- a `degradation` problem has been exposed: with the network depth increasing, accuracy gets `saturated`
+- Deep networks naturally `integrate` low/mid/high- level features
+- optimize
+- We provide comprehensive `empirical` evidence
+- We `explicitly` `reformulate` the layers as learn- ing residual functions with reference to the layer inputs
+### 3-3
+- in fractions of a second
+- the number of `syllables` in a word
+
+### TOEIC
+- qualified
+- luckily
+- dedicate
+
 ## 2017-04-29
 
 ## 2017-04-28
