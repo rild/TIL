@@ -1,4 +1,13 @@
 ## 2017-05-01
+### 3-8 Statistical parametric Speech Synthesis Using DNN
+-  The use of the DNN can `address` some limitations of the conventional approach
+
+### 3-7 Vocaloid Investigation
+- `timbre` must be “smoothed” around the junction of samples
+
+### 3-6 Para-MDRNN
+- previous MD-LSTM variants
+- spatio-temporal context of each pixel
 
 ## 2017-04-30
 ### 3-4
