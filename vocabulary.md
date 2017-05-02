@@ -1,5 +1,8 @@
+## 2017-05-02
+
 ## 2017-05-01
 ### 3-8 Statistical parametric Speech Synthesis Using DNN
+- cross `validation` [16,17]
 -  The use of the DNN can `address` some limitations of the conventional approach
 
 ### 3-7 Vocaloid Investigation
