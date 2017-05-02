@@ -1,3 +1,0 @@
-AppWidgetProviderクラスについて
-Contribution が 44 になってた
-順調に増えてるよやったね
