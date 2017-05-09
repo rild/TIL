@@ -1,4 +1,8 @@
 ## 2017-05-09
+### 4-1 QRNN
+- context-invariant
+-  many aspects of the `semantics` of long sequences
+- Intuitively
 
 ## 2017-05-08
 
