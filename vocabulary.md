@@ -1,8 +1,14 @@
+## 2017-05-12
+### -- 
+- arouse / arousal
 ## 2017-05-11
 ### --
 - (altissie)
 
 ### CV 0511
+- tensor
+- taxonomy
+- pros cons list
 - adequate
 
 ## 2017-05-10
