@@ -1,3 +1,5 @@
+## 2017-05-16
+
 ## 2017-05-15
 - alleviate
 - cardinality
