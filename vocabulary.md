@@ -1,4 +1,10 @@
+## 2017-05-18
+
 ## 2017-05-16
+### Sample RNN
+- hierarchical
+- profits
+- autoregressive
 
 ## 2017-05-15
 - alleviate
