@@ -1,3 +1,10 @@
+## 2017-06-05
+- the magnitude squared
+  - magnitude squared coherenceの意味や和訳。 振幅二乗コヒーレンス  
+
+
+## 2017-05-24
+
 ## 2017-05-22 Mon
 - mumbling
 - receptive
