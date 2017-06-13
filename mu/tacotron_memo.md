@@ -2,6 +2,7 @@
 
 TACOTRON: TOWARDS END-TO-END SPEECH SYNTHESIS
 のメモ
+Submitted to Interspeech 2017
 
 # 雑記
 
@@ -52,3 +53,69 @@ These advantages imply that an end-to-end model could allow us to train on huge 
 現実世界にある, 多様で表現豊かな音声合成モデルを実装できるようになる
 
 ---
+a large-scale inverse problem
+
+Text は高度に情報圧縮された媒体であり, それを音響信号に解凍する必要がある
+
+同じ文は何通りにも読まれ得るため, end-to-end な学習モデルは特に困難であった
+- ある文字入力に対して, 多くの信号レベルで異なる出力がある
+
+- end-to-end speech recognition (Chan et al., 2016)
+- machine translation (Wu et al., 2016)
+
+TTS では, 出力が連続値かつ, 入力値よりも非常に大きな連続値となる
+
+これが, 音声合成において prediction errors の原因となる
+
+---
+
+本論文では "Tacotron" を提案している
+
+end-to-end な TTS 生成モデル
+seq2seq (Sutskever et al., 2014)
+attention paradigm (Bahdanau et al., 2014)
+
+に基づいている
+
+入力: 文字列 characters
+出力: 音声波形のスペクトログラム raw spectrogram
+
+seq2seq モデルに, 幾らかの改善を施している
+
+random initialization により, ゼロから from scratch 完璧に訓練することができる
+
+phonome-level alignment を必要としない
+音素レベルの関連付け
+
+このため, (既存のモデルより？)多くの音響情報を組み込むモデルにスケールしやすい
+記述言語を使う with transcripts
+
+MOS スコアで 平均 3.82 を記録する
+parametric system より naturalness という観点で, 大幅に性能が上回った状態で, である
+
+---
+
+関連研究
+
+WaveNet (van den Oord et al., 2016)
+DeepVoice (Arik et al., 2017)
+
+Wang et al. (2016)
+これにはアクセスできなかった
+今調べたらなんか DL できた...あれ？
+
+事前に訓練された HMM ベースの aligner
+vocoder parameters を予測するため, vocoder を必要とする
+このため, 訓練には phoneme を用いる必要があり, 生成結果にはいくらかの制限があるようであった
+
+Char2Wav (Sotelo et al., 2017)
+は Tacotron とは異なる, end-to-end な音声生成モデルである
+これも, vocoder parameters を予測している
+- SampleRNN neural vocoder (Mehri et al., 2016) を使用しているため
+この seq2seq + SampleRNN モデルでは, 事前訓練が必要になるが, Tacotron ではそれが必要ない
+
+元の seq2seq パラダイムに対して, いくらかの重要な変更を加えた
+- 元のモデルでは, 文字レベルの入力ではうまく動作しなかった
+
+demos
+https://google.github.io/tacotron/
