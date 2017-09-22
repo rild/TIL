@@ -11,5 +11,6 @@
 
 ## 一覧
 |:title|:pdf|:comment|
+
 |Machine Learning for Survival Analysis: A Survey|https://arxiv.org/abs/1708.04649|Srvival Analysis 生存分析に関するサーベイ論文, 原因と結果に関する分析を行う手法？|
 
